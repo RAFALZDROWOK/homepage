@@ -1,0 +1,13 @@
+.footer {
+    max-width: 100%;
+    background: #555;
+    color: #fff;
+    padding: 2px;
+    margin: 50px auto;
+    border: 2px solid #7e7b7b;
+    text-align: center;
+    outline: 1px solid #7e7b7b;
+    outline-offset: 0px;
+    box-shadow: 5px -5px 4px 0px #ccc;
+    border-radius: 3px;
+}

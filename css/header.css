@@ -1,0 +1,16 @@
+.header {
+    max-width: 1200px;
+    background: #7e7b7b;
+    color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    text-align: center;
+    outline: 1px solid #ccc;
+    outline-offset: 0px;
+    box-shadow: 5px -5px 4px 0px #ccc;
+    border-radius: 3px;
+    font-style: italic; /* kursywa */
+    font-size: 30px;
+    font-weight: bold; /* grubość czcionki */
+}

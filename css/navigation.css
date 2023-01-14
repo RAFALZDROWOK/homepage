@@ -1,0 +1,45 @@
+.navigation {
+    max-width: 1200px;
+    background: #fff;
+    color: #555;
+    padding: 2px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    text-align: left;
+    outline: 1px solid #ccc;
+    outline-offset: 0px;
+    box-shadow: 5px -5px 4px 0px #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation__list {
+    list-style: none;
+    /* usuwa znacznik listy */
+    padding: 0px 40px;
+    line-height: 2.0;
+}
+
+.navigation__listItem {
+    padding: 2px;
+}
+
+.navigation__link {
+    color: #555;
+    background-color: #fff;
+    text-decoration: none;
+    /* usuwa podkreslenie linku */
+
+}
+
+.navigation__link:hover {
+    /* zmienia kolor po najechaniu myszką */
+    color: #3939e9;
+    outline: none;
+}
+
+.navigation__link:active {
+    /* wyróżnia link podczas wciskania */
+    background-color: #4281f0;
+}

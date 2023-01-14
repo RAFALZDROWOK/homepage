@@ -1,0 +1,46 @@
+.table {
+    border-collapse: collapse;
+    /* łączy obramowanie komórek w jedno */
+    max-width: 100%;
+    margin: 50px auto;
+    outline: 1px solid #7e7b7b;
+    outline-offset: 0px;
+}
+
+.table__caption {
+    /* caption - podpis */
+    caption-side: top;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    background: #fdfaf7;
+    color: #222;
+}
+
+.table__cell {
+    /* cell - komórka*/
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    /* wysrodkowanie tekstu komórek */
+}
+
+.table__header {
+    background: #182f28;
+    color: #fff;
+}
+
+.table__header:hover {
+    background: hsl(162, 32%, 20%);
+}
+
+.table__row:nth-child(even) {
+    /* tło dododane do co drugiego wiersza tabeli */
+    background-color: #ddd;
+}
+
+.table__row:hover {
+    /* inny kolor przy najechaniu na wiersz */
+    background: #4281f0;
+}

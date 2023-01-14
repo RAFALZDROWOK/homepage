@@ -1,0 +1,18 @@
+.section{
+    max-width: 1200px;
+    background: #555;
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+    margin: 25px auto;
+    border: 2px solid #7e7b7b;
+    text-align: center;
+    outline: 1px solid #7e7b7b;
+    outline-offset: 0px;
+    box-shadow: 5px -5px 4px 0px #7e7b7b;
+    border-radius: 3px;
+}
+.section__header {
+    padding: 20px 0;
+}
+
+

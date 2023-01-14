@@ -1,0 +1,12 @@
+.article {
+    max-width: 1200px;
+    background: #fdfaf7;
+    color: #222;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    text-align: start;
+    outline: 1px solid #ccc;
+    box-shadow: 5px -5px 4px 0px #ccc;
+    border-radius: 3px;
+}
