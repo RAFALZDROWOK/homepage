@@ -1,4 +1,4 @@
-console.log("Cześć!");
+console.log("Testowe zmiany w repozytorium git");
 
 
 let button = document.querySelector(".button");
