@@ -1,19 +1,22 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Witam serdecznie czytających developerów!")
+    }
+    welcome();
 
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("grayBackground");
+        themeName.innerText = body.classList.contains("grayBackground") ? "jasny" : "ciemny";
+    };
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
-
-button.addEventListener("click", () => {
-    body.classList.toggle("grayBackground");
-
-    themeName.innerText = body.classList.contains("grayBackground") ? "jasny" : "ciemny"; 
-});
-
-/*   operatorwarunkowy potrójny "ternary" (krótka i wygodna składnia)
-
-warunek ? jeśliSpełniony() : jeśliNieSpełniony()   */
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+    };
+    init();
+}
 
 
 
