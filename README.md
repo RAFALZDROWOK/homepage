@@ -7,3 +7,4 @@ The purpose of creating the website was:
 - getting practice in creating an HTML document
 - gaining practice in styling in CSS, and implementing the BEM (Block Element Modifier) convention
 - writing a simple JavaScript code to change the background color
+- introduction of arrow function in JS
