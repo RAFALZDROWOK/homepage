@@ -8,3 +8,10 @@ The purpose of creating the website was:
 - gaining practice in styling in CSS, and implementing the BEM (Block Element Modifier) convention
 - writing a simple JavaScript code to change the background color
 - introduction of arrow function in JS
+## Technologies:
+- HTML✔
+- CSS✔
+- JavaScript✔
+- ES6+✔
+- BEM✔
+- GIT✔
